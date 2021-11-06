@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TasksAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TasksAPI.Controllers.TasksController.GetTasks">
+            <summary>
+                Returns a list of tasks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TasksAPI.Controllers.TasksController.GetTasksById(System.Guid)">
+            <summary>
+                Get task by id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TasksAPI.Controllers.TasksController.CreateTask(TasksAPI.Models.TaskModel)">
+            <summary>
+                Create a task
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TasksAPI.Controllers.TasksController.UpdateTask(System.Guid,TasksAPI.Models.TaskModel)">
+            <summary>
+                Update task by id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TasksAPI.Controllers.TasksController.DeleteTask(System.Guid)">
+            <summary>
+                Delete task by id
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
